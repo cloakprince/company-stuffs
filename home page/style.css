@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header img {
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    max-width: 50px;
+    border-radius: 50%;
+    z-index: 1000;
+}
+.header ul {
+    position: absolute;
+    left: 5%;
+    top: 2%;
+}
+.header li {
+    list-style-type:none;
+    display: inline;
+}
+.header a {
+    text-decoration: none;
+    color: black;
+}
+.header a:hover {
+    background: #eee;
+    transition: 0.5s;
+}
+.news {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.header hr {
+    position: relative;
+    top: 55px;
+}
+.news {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
