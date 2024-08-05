@@ -12,12 +12,13 @@ body {
 }
 .header ul {
     position: absolute;
-    left: 5%;
-    top: 2%;
+    left: 30px;
+    top: 10px;
 }
 .header li {
     list-style-type:none;
     display: inline;
+    margin: 3px;
 }
 .header a {
     text-decoration: none;
